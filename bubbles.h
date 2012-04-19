@@ -17,6 +17,7 @@ struct Bubble {
   QColor color_;
 
   float speed_;
+  int last_time_;
 };
 
 //class to work with list of bubbles

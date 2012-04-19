@@ -9,7 +9,7 @@ static const int height = 500;
 int main(int argc, char *argv[]) {
   glutInit(&argc, argv);
   QApplication a(argc, argv);
-  GLWidget w(QRect(x,y,width,height), 500, 10, 50, 20.0);
+  GLWidget w(QRect(x,y,width,height), 500, 10, 50, 200.0);
   w.show();
 
   return a.exec();

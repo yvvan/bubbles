@@ -7,7 +7,7 @@
 
 #include "bubbles.h"
 
-static const int timer_step_ = 40; //step in ms when circles move
+static const int timer_step_ = 30; //step in ms when circles move
 static const float min_speed_ = 50;//speed of biggest bubble in pixels per second(lowest)
 //score step applies to the score formulae used in this game
 static const int score_step_ = 5;
@@ -45,9 +45,6 @@ private:
   QTime timer;//timer for counting milliseconds from initialization of application
 
   int score_;
-
-  bool mouse_clicked_;
-  QPoint click_position_;
 };
 
 #endif // GLWIDGET_H
